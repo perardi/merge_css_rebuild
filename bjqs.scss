@@ -1,0 +1,165 @@
+/*--------------------------------------------------------------------------------------*/ 
+/*	This file just controls the front page slider.			*/ 
+/*--------------------------------------------------------------------------------------*/
+
+/*------------------------------------------- Button -------------------------------------------*/ 
+.slider_button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #4191db;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #4191db;
+	box-shadow:inset 0px 1px 0px 0px #4191db;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0099cc), color-stop(1, #0e7699) );
+	background:-moz-linear-gradient( center top, #0099cc 5%, #0e7699 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0099cc', endColorstr='#0e7699');
+	background-color:#0099cc;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #0099cc;
+	display:inline-block;
+	color:#ffffff;
+	font-size:14px;
+	font-weight:bold;
+	padding:6px 70px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #1678ad;
+	margin-left: 16px;
+}
+
+.slider_button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0e7699), color-stop(1, #0099cc) );
+	background:-moz-linear-gradient( center top, #0e7699 5%, #0099cc 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0e7699', endColorstr='#0099cc');
+	background-color:#0e7699;
+	color: #ffffff;
+}
+
+.slider_button:active {
+	position:relative;
+	top:1px;
+}
+
+.linker_arrow {
+	color: #ff9900;
+	line-height: 1;
+	font-size: 140%;
+}
+
+
+/*------------------------------------------- Content-------------------------------------------*/ 
+.front_slide_content {
+	width: 100%;
+	background: transparent;
+	margin: 0 auto;
+	height: 100%;
+	padding: 0px;
+}
+
+.slide_content_left {
+	width: 475px;
+	float: left;
+	background: transparent;
+}
+
+.slide_content_right {
+	width: 530px;
+	float: right;
+	background: transparent;
+}
+
+.slider_subhead {
+	font-weight: 600;
+	font-size: 14pt;
+	color: #0099cc;
+	margin: 20px 0 10px 0;
+	padding: 0;
+}
+
+.slider_headline {
+	font-weight: 100 !important;
+	color: #ff9900;
+	font-size: 72px;
+	line-height: 1;
+	margin: 0 0 40px 0;
+	padding: 0;
+}
+
+/*------------------------------------------- Slider controller -------------------------------------------*/ 
+ul.bjqs {
+	position: relative;
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	overflow: hidden;
+	display: none;
+}
+li.bjqs-slide {
+	position: absolute;
+	display: none;
+}
+ul.bjqs-controls {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	z-index: 9999;
+}
+ul.bjqs-controls.v-centered li a {
+	position: absolute;
+}
+ul.bjqs-controls.v-centered li.bjqs-next a {
+	right: 0;
+}
+ul.bjqs-controls.v-centered li.bjqs-prev a {
+	left: 0;
+}
+ol.bjqs-markers {
+	position: relative;
+	list-style: none;
+	padding: 0 0px 0 0px;
+	margin: 0;
+	width: 98%;
+	background: transparent;
+	margin-top: -38px;
+	text-align: right;
+	z-index: 10 !important;	
+}
+ol.bjqs-markers.h-centered {
+	text-align: center;
+}
+ol.bjqs-markers li {
+	display: inline;
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */	
+}
+
+ol.bjqs-markers li:hover {
+	display: inline;
+	opacity:1.0;
+	filter:alpha(opacity=100); /* For IE8 and earlier */	
+}
+
+ol.bjqs-markers li a {
+	display: inline-block;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: transparent;
+	width: 27px;
+	text-align: center;
+}
+
+ol.bjqs-markers .active-marker {
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: transparent;
+	font-weight: bold;
+	opacity:1.0;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+	color: #666;
+}
+
+p.bjqs-caption {
+	display: block;
+	width: 96%;
+	margin: 0;
+	padding: 2%;
+	position: absolute;
+	bottom: 0;
+}

@@ -1,0 +1,800 @@
+/*#Forum#*/
+
+.ForumLoginTitle {
+margin-left:65px;
+}
+
+.ForumModerationInfo
+{
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+}
+
+.ForumModerationInfoText
+{
+	margin: 15px;
+	border: solid 1px #cccccc;
+	padding: 35px;
+	background-color: #fff6df;	
+}
+
+.ForumSearchResultsInfo
+{
+	background-color:#cccccc;
+	padding: 8px;
+	font-weight:bold;
+}
+	
+.Forum .Unapproved
+{
+	background-color:#fff2cf;
+}
+
+.Post img
+{
+	border: 0px;
+}
+
+.PostAttachments
+{
+	border: 1px solid #cccccc;
+	background: #eeeeee;
+	padding: 5px;
+	margin: 10px 0px;
+}
+
+.PostAttachments .PostAttachmentsList
+{
+	padding: 2px 0px;
+}
+
+.PostAttachments .PostAttachmentsHeader
+{
+	color: gray;
+}
+
+.PostAttachments .PostAttachmentsList a
+{
+	color: black;
+}
+
+/*#Forum/Attachments#*/
+
+.ForumAttachments
+{
+	border-right: solid 1px #cccccc;
+	border-left: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+}
+
+
+.ForumAttachments .AttachmentTable
+{
+	border: solid 1px #cccccc;
+	border-collapse: collapse;
+	margin-top: 12px;
+}
+
+.ForumAttachments .AttachmentTable td
+{
+	border-top: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+}
+
+.ForumAttachments .AttachmentTable .AttachmentTableHeader
+{
+	background-color: #eeeeee;
+}
+
+.ForumAttachments .AttachmentTable .AttachmentTableHeader th, .AttachmentTable .AttachmentFileSize, .AttachmentAction 
+{
+	text-align: center;
+	border-top: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+	padding: 3px;
+}
+
+.ForumAttachments .AttachmentTable .AttachmentTableHeader .AttachmentFileName
+{
+	text-align: left;
+}
+
+.ForumAttachments .AttachmentTable .AttachmentTableFooter
+{
+	display: none;
+}
+
+.ForumAttachments .AttachmentTable .AttachmentTableUpload input
+{
+	height: 23px;
+}
+
+.ForumAttachments .AttachmentTable .AttachmentTableUpload .Button
+{
+	width: 100px;
+}
+
+.ForumAttachments .AttachmentTable .AttachmentTableFooter
+{
+	display: none;
+}
+
+.ForumAttachments .Title
+{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/*#Forum/Extended actions#*/
+
+.PostExtendedActions
+{
+	border-top: solid 1px #eeeeee;
+	margin-top: 10px;
+	padding-top: 5px;
+	margin-bottom: 5px;
+}
+
+.PostExtendedActions span
+{
+	display: none;
+}
+
+.PostExtendedActions .SendMessage
+{
+	display: block; 
+	float: left; 
+	width: 16px; 
+	height: 16px; 
+	background-image: url(../App_themes/Default/Images/Design/Forums/sendmessage.gif);
+	margin-right: 7px;
+}
+
+.PostExtendedActions .Friendship
+{
+	display: block; 
+	float: left; 
+	width: 16px; 
+	height: 16px; 
+	background-image: url(../App_themes/Default/Images/Design/Forums/friendship.gif);		
+}
+
+/*#Forum/Extended search#*/
+
+.ForumExtendedSearch .TextBox 
+{
+	width: 300px;
+}
+
+.ForumExtendedSearch .DropDownList
+{
+	width: 304px;
+}
+
+.ForumExtendedSearch .Button
+{
+	margin-top: 20px;
+	width: 150px;
+}
+
+/*#Forum/Mark as answer#*/
+
+.Post .AcceptedSolution
+{
+	background-color: #efffef;
+}
+
+.AcceptedSolutionArea
+{
+	color:Green;
+	font-size:14pt;
+	width:100%;
+	margin-bottom: 5px;
+}
+
+.AcceptedSolutionArea td 
+{
+ 	padding-left: 5px !important;
+	padding-bottom: 5px !important;
+}
+ 
+.AcceptedSolutionArea .AcceptedSolutionText
+{
+	width:100%;
+}
+
+/*#Forum/Quote#*/
+
+.PostText blockquote
+{
+	border: solid 1px #d4d4d4;
+	background-color: #eeeeee;
+	padding: 4px;
+	margin-left: 10px;
+}
+
+.PostText blockquote cite 
+{
+	display: block;
+	font-weight: bold;
+}
+
+/*#Forum/Manage#*/
+
+.ForumManage
+{
+	border: 1px solid #cccccc;
+	margin: 4px 0px 5px 5px;
+	padding: 2px 5px;
+	background-color: #eeeeee;
+}
+
+.PostManageEdit table
+
+{
+	border: none !important;
+}
+
+.PostManageEdit .ForumNewPost td
+{
+	border-bottom: none !important;
+}
+
+.ForumNewPost .SignatureAreaItem
+{
+	width: 500px;
+	height: 50px;
+}
+
+.SignatureArea
+{
+	width: 100%;
+	border-top: solid 1px #D7D7D7;
+	font-size: 8pt;
+	color: #a8a8a8;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.ForumTree .PostTree .SignatureArea
+{
+	width: 100%;
+	border-top: solid 1px #D7D7D7;
+	font-size: 8pt;
+	color: #a8a8a8;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+
+/*#Forum/Forum Group#*/
+.ForumGroup
+{
+	width: 929px;
+	margin-left:65px;
+}
+
+.ForumGroup *
+{
+	font-family: Arial;
+}
+
+.ForumGroup .Header
+{	
+	margin-left:65px;
+}
+
+.ForumGroup .Table
+{
+	width: 929px;
+	border-top: solid 1px #cccccc;
+	border-left: solid 1px #cccccc;
+	background-color: #ffffff;
+}
+
+.ForumGroup .Table td
+{
+	padding: 6px;
+}
+
+.ForumGroup .Table .Header td
+{
+	font-weight: bold;
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+	color: #ffffff;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	background: #006699 url(../MergeHealthcare/media/design/forum_bg.gif) repeat-x top left;
+}
+
+.ForumGroup .Table .Info td
+{
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 1px #888888;
+	border-top: solid 1px #888888;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background: #006699 url(../MergeHealthcare/media/design/forum_bg.gif) repeat-x top left;
+	height: 55px;
+	vertical-align: top;
+}
+
+.ForumGroup .Table .GroupName
+{
+	display: block;
+	font-weight: bold;
+	font-size: 17px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	color: #ffffff;
+}
+
+.ForumGroup .Table .GroupDescription
+{
+	display: block;
+	padding-left: 10px;
+	color: #dddddd;
+}
+
+
+.ForumGroup .Table .ForumInfo
+{
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.ForumGroup .Table .Threads
+{
+	text-align: center;
+	width: 50px;
+}
+
+.ForumGroup .Table .Posts
+{
+	text-align: center;
+	width: 50px;
+}
+
+.ForumGroup .Table .LastPost
+{
+	text-align: center;
+	width: 200px;
+}
+
+.ForumGroup .Table .PostTime
+{
+	white-space: nowrap;
+}
+
+.ForumGroup .Table .PostUser
+{
+	white-space: nowrap;
+	font-weight: bold;
+	color: #e36c26;
+}
+
+.ForumGroup .ForumOdd td
+{
+	background-color: #f8f8ff;
+}
+
+.ForumGroup .Forum td
+{
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+}
+
+
+
+.ForumGroup .Forum .ForumName
+{
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: underline;
+	color: black;
+}
+
+.ForumGroup .Forum .ForumDescription
+{
+	padding-left: 10px;
+}
+
+/*#Forum/Forum flat layout#*/
+.ForumFlat *
+{
+	font-family: Arial;
+}
+
+.ForumFlat .Table
+{
+	width: 929px;
+	background-color: #ffffff;
+	margin-left:65px;
+}
+
+.ForumFlat .Table td
+{
+	padding: 6px;
+}
+
+
+.ForumFlat .Table .Info td
+{
+	border: solid 1px #888888;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background: #006699 url(../MergeHealthcare/media/design/forum_bg.gif) repeat-x top left;
+	height: 50px;
+	vertical-align: top;
+}
+
+.ForumFlat .Table .ForumContent
+{
+	background-color: #ffffff;
+	padding: 0px;
+	margin: 0px;
+	/*font-size: 110%;*/
+}
+
+.ForumFlat .Table .Posts
+{
+	border-right: solid 1px #cccccc;
+	border-left: solid 1px #cccccc;
+}
+
+.ForumFlat .Table .ForumName
+{
+	display: block;
+	font-weight: bold;
+	font-size: 17px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	/*text-decoration: underline;*/
+	color: #ffffff;
+	background-color: #006699;
+}
+
+.ForumFlat .Table .ForumDescription
+{
+	display: block;
+	padding-left: 10px;
+	color: #dddddd;
+}
+
+.ForumFlat .Table .Informations td
+{
+	font-weight: bold;
+	background-color: #eeeeee;
+	border-right: solid 1px #cccccc;
+	border-left: solid 1px #cccccc;
+	border-bottom: solid 1px #bbbbbb;
+	padding: 5px;
+	background-color: #fffec0;
+}
+
+.ForumFlat .Table .Actions td
+{
+	font-weight: bold;
+	background-color: #eeeeee;
+	border-right: solid 1px #cccccc;
+	border-left: solid 1px #cccccc;
+	border-bottom: solid 1px #bbbbbb;
+	padding: 5px;
+}
+
+.ForumFlat .Table .Actions .ActionLink
+{
+	color: #e36c26; 
+	text-decoration: underline;
+	padding: 0px 5px 0px 5px;
+}
+
+
+.ForumFlat .Table .Posts td
+{
+	border-right: solid 1px #cccccc;
+	border-left: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+	padding: 0px;
+}
+
+.ForumFlat .Table .PostsTable
+{
+	width: 100%;
+}
+
+.ForumFlat .Table .PostsTable td
+{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: solid 1px #cccccc;
+}
+
+.ForumFlat .Pager td
+{
+	background-color: #eeeeee;
+	border: none;
+	padding: 0px;
+	height: 23px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.ForumFlat .Pager a
+{
+	font-weight: bold;
+	text-decoration: underline;
+	color: #65a02f;
+}
+
+.ForumFlat .ThreadTable
+{
+	border-left: solid 1px #cccccc;
+}
+
+.ForumFlat .ThreadTable td
+{
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+}
+
+.ForumFlat .ThreadTable .Header td
+{
+	font-weight: bold;
+	background-color: #eeeeee;
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+	color: #ffffff;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	background-image: url(../MergeHealthcare/media/design/forum_bg.gif);
+}
+
+.ForumFlat .ThreadTable .Author
+{
+	text-align: center;
+	width: 200px;
+	color: #e36c26;
+}
+
+.ForumFlat .ThreadTable .Posts, .ForumFlat .ThreadTable .Views
+{
+	text-align: center;
+	width: 50px;
+}
+
+.ForumFlat .ThreadTable .LastPost
+{
+	text-align: center;
+	width: 200px;
+}
+
+.ForumFlat .ThreadTable .PostTime
+{
+	white-space: nowrap;
+}
+
+.ForumFlat .ThreadTable .PostUser
+{
+
+	white-space: nowrap;
+	font-weight: bold;
+	color: #e36c26;
+}
+
+.ForumFlat .ThreadTable .ThreadInfo
+{
+	text-align: left;
+}
+
+.ForumFlat .ThreadTable .ThreadInfo .ThreadName
+{
+	font-weight: bold;
+	text-decoration: underline;
+
+	color: #e36c26;
+}
+
+.ForumFlat .ForumBreadCrumbs
+
+{
+
+
+	font-weight: normal;
+	font-size: 9pt;
+	font-family: Arial;
+	padding: 0px 5px 0px 5px;
+}
+
+.ForumFlat .ForumNewPost
+{
+	border-right: solid 1px #cccccc;
+	border-left: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+}
+
+/*#Forum/Forum flat layout/Post#*/
+.ForumFlat .ForumPost
+{
+	padding: 8px 8px 8px 8px;
+}
+
+.ForumFlat .PostIndent .ForumPost
+{
+	border-left: solid 1px #cccccc;
+}
+
+.ForumFlat .PostIndent
+{
+	padding-left: 30px;
+}
+
+.ForumFlat .PostUser, .ForumFlat .PostUserLink
+{
+	white-space: nowrap;
+	font-weight: bold;
+	color: #e36c26;
+}
+
+.ForumFlat .PostUser
+{
+	text-decoration: none;
+}
+
+.ForumFlat .PostSubject
+{
+
+	display: block;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.ForumFlat .PostText
+{
+	display: block;
+	padding: 3px 5px 3px 5px;
+}
+
+.ForumFlat .PostActionLink
+{
+	text-decoration: underline;
+	color: #e36c26;
+	padding: 0px 5px 0px 5px;
+}
+
+/*#Forum/New post form#*/
+.ForumNewPost
+{
+	padding: 5px;
+	font-family: Arial;
+}
+
+.ForumNewPost .PostReply
+{
+	border: solid 1px #cccccc;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.ForumNewPost .FormPadding
+{
+	/*border: solid 1px #cccccc;*/
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.ForumNewPost .Title
+{
+	font-size: 17px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.ForumFlat .ForumNewPost .PostForm td
+{
+	border: none;
+}
+
+.ForumNewPost .ItemLabel
+{
+	font-weight: bold;
+	vertical-align: middle;
+	padding: 5px;
+}
+
+.ForumNewPost .Button
+{
+	width: 100px;
+}
+
+.ForumNewPost .TextboxItem
+{
+	width: 500px;
+}
+
+.ForumNewPost .TextboxItemShort
+{
+	width: 300px;
+}
+
+
+
+.ForumNewPost .TextareaItem
+{
+	width: 500px;
+	height: 200px;
+}
+
+
+
+
+
+/* Overall */
+
+
+
+
+
+
+.HiddenButton
+{
+	display: none;
+}
+
+
+
+
+
+/*#Forums/Images#*/
+.ForumGroup .Forum .ForumImageDefault, .ForumGroup .Forum .ForumImage, .ForumGroup .Forum .ForumImageLocked, 
+.ForumFlat .ThreadTable .ThreadImageDefault, .ForumFlat .ThreadTable .ThreadImage, .ForumFlat .ThreadTable .ThreadImageLocked, .ForumFlat .ThreadTable .ThreadImageAnnouncement, .ForumFlat .ThreadTable .ThreadImageSticky
+{
+	background-repeat:no-repeat;
+	background-position:center;
+	border-right: none;
+	width: 24px;
+	text-align: center;
+	border-right: 1px solid #cccccc;
+}
+
+.ForumGroup .Forum .ForumImageDefault, .ForumGroup .Forum .ForumImage
+{
+	background-image: url(../App_Themes/Default/Images/Design/Forums/Forum_default.gif);
+}
+
+.ForumGroup .Forum .ForumImageLocked
+{
+	background-image: url(../App_Themes/Default/Images/Design/Forums/Forum_locked.gif);
+}
+
+
+.ForumFlat .ThreadTable .ThreadImageDefault, .ForumFlat .ThreadTable .ThreadImage
+{
+	background-image: url(../App_Themes/Default/Images/Design/Forums/Thread_default.gif);
+}
+
+.ForumFlat .ThreadTable .ThreadImageLocked
+{
+	background-image: url(../App_Themes/Default/Images/Design/Forums/Thread_locked.gif);
+}
+
+.ForumFlat .ThreadTable .ThreadImageAnnouncement
+{
+	background-image: url(../App_Themes/Default/Images/Design/Forums/Thread_announcement.gif);
+}
+
+.ForumFlat .ThreadTable .ThreadImageSticky
+{
+	background-image: url(../App_Themes/Default/Images/Design/Forums/Thread_sticked.gif);
+}
+
+
+.resizedTextbox {width: 150px; height: 15px; padding: 1px}
+.resizedTextarea {width: 150px !important; height: 50px; padding: 1px}
