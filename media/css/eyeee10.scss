@@ -1,0 +1,13 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   ul.nav_topic_list_solbig {
+	margin-top: -25px !important;
+}
+
+   ul.nav_topic_list {
+	margin-top: -25px !important;
+}
+}
+
+canvas {
+    -ms-touch-action: double-tap-zoom;
+}

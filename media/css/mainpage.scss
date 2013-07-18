@@ -1,0 +1,192 @@
+/*========================================================================== 
+		Main Page
+========================================================================== */
+#promo_index {
+	width: 100%;
+	height: 350px;
+	margin: 0 auto;
+	margin: -1px 0 50px 0;
+	background-color: #eee;
+	border-bottom: 4px solid #ccc;
+	background: #ffffff;
+}
+
+#learn_more_wrapper {
+	width: 100%;
+	margin-bottom: 40px;
+	text-align: center;
+	margin-top: 26px;
+}
+
+.learn_more_box {
+	width: 172px;
+	height: 230px;
+	padding: 8px 15px 10px 15px;
+	text-align: center;
+	border-bottom: 4px solid #ccc;
+	float: left;
+	background-color: #ededed; 
+}
+
+.learn_more_pad {
+	margin-left: 25px;
+}
+
+#learn_more_wrapper img {
+	margin: 0 auto;
+}
+
+.learn_more_image {
+	margin-bottom: 10px;
+	margin-top: -25px;
+	height: 90px;	
+}
+
+.learn_more_upper {
+	height: 125px;
+}
+
+.learn_more_headline {
+	color: #3e6473;
+	font-size: 16pt;
+	font-weight: 600;
+	line-height: 1.1;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.learn_more_copy {
+	font-size: 10pt;
+	margin: 10px 0 0px 0;
+	padding: 0;
+	line-height: 1.25;
+}
+
+.learn_more_lower {
+	clear: both;
+}
+
+.learn_more_link {
+	font-weight: bold;
+	width: 100%;
+	font-size: 10pt;
+	text-transform: uppercase;
+	margin: 0 !important;
+	line-height: 1;
+	padding: 5px 11px 5px 11px;
+	color: #fff;
+	background: #0099cc;
+}
+
+.learn_more_link:hover {
+	background: #3e6473;
+	color: #fff;
+}
+
+#news_events_wrap {
+	clear: both !important;
+	padding-top: 50px;
+}
+
+#news_events_wrap h4 {
+	font-weight: bold;
+	font-size: 14pt;
+	color: #666;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 5px;
+}
+
+#latest_news_index {
+	float: left;
+	width: 490px;
+}
+
+#latest_news_index li {
+	list-style-type: none;
+	font-size: 10pt;
+	margin-top: 15px;
+	line-height: 1.25;
+}
+
+#latest_news_index a {
+	font-weight: bold;
+}
+
+#upcoming_events_index {
+	float: right;
+	padding-top: 0;
+	width: 325px;
+	padding-left: 25px;
+	border-left: 1px solid #eee;
+}
+
+#upcoming_events_index {
+	font-weight: bold;
+}
+
+#upcoming_events_index p {
+	font-weight: normal;
+}
+
+#upcoming_events_index a {
+	font-weight: bold;
+}
+
+.date_wrap {
+	width: 145px;
+	float: left;
+	margin-right: 17px;
+}
+
+.date_box {
+	width: 25px;
+	height: 25px;
+	background-color: #ccc;
+	padding: 11px 11px 9px 8px; 
+	float: left;
+	margin-right: 5px;
+	margin-top: 14px;
+	line-height: 0;
+	text-align: center;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;	
+	font-weight: bold !important;
+}
+
+.date_box p {
+	line-height: 0;
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+	font-size: 18pt;
+	font-weight: bold !important;
+	color: #fff;
+}
+
+.date_details {
+	float: left;
+	font-size: 10pt;
+	margin-top: 0;
+	padding-top: 0;
+	line-height: 1.4;
+	margin-left: 5px;
+}
+
+/*#Home Boxes#*/
+#home_boxes {width: 960px; height: 210px; margin: 0 auto; padding-top:40px; }
+.home_box {float: left; width: 215px; height: 210px; margin: 0 8px 0 0; padding: 0; background-image: url('/mergehealthcare/media/design/home_badge1.png'); background-position: top center; background-repeat: no-repeat; position: relative; }
+.home_box_content { height: 150px; margin: 0; padding: 10px 20px; overflow: hidden; }
+.home_box h2 { font-size: 165%; font-weight: normal; margin: 10px 0; line-height: 1.2;}
+.home_box h2 a {text-decoration: none; color: #2b2b2b;}
+.home_box h2 a:hover {color: #0092D0;}
+.home_box p { font-size: 85%; }
+.btn_learn_more { text-indent: -9999px; width: 83px; height: 20px; overflow: hidden; position: absolute; right: 15px; bottom: 15px; background-image: url('/MergeHealthcare/media/design/btn_learn_more1.png'); background-position: top center; background-repeat: no-repeat; }
+ 
+ 
+/*#News Articles#*/
+h3.news_title {line-height: 1.2;}
+h4.news_subtitle {line-height: 1.2; font-style: italic; margin: 10px 0 0 0;}
+span.news_byline {font-weight: bold;}
+div.news_references {font-size: 12px; line-height: 1.1;}
+dd {margin: 0}

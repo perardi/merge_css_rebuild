@@ -1,0 +1,32 @@
+.gradient {
+       filter: none;
+    }
+
+#header {
+	margin-top: -27px !important;
+}
+
+#footer {
+	height: 400px;
+}
+
+#solutions_footer {
+	width: 150px !important;
+}
+
+#smallprint_wrap {
+	margin-top: 310px !important;
+	clear: both !important;
+}
+
+ul.nav_topic_list_solbig {
+	margin-top: 0px !important;
+}
+
+ul.nav_topic_list {
+	margin-top: -10px !important;	
+}
+
+.nav_topic_capper {
+	color: #eeeeee;
+}

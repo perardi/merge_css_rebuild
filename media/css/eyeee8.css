@@ -1,0 +1,95 @@
+/**               LIGHT                 **/
+.ie_light,
+#hero_pad h1 {
+	font-family: "proxima-nova-n1", "proxima-nova", Arial, sans-serif !important;
+	font-weight: 100 !important;
+}
+
+/**               BOLD                 **/
+a,
+strong,
+.product_box_wrapper a,
+#navigation_horiz,
+.date_box p,
+.slider_subhead,
+h4,
+.learn_more_headline,
+#solutions_bar_header
+ 	{
+		font-family: "proxima-nova-n6", "proxima-nova", Arial, sans-serif;	
+}
+
+/**               FRONT PAGE + MENU                 **/
+.slider_headline {
+	font-family: "proxima-nova-1", "proxima-nova", Arial, sans-serif;
+	font-size:40pt !important;
+}
+
+#head_wrap h1 {
+	font-family: "proxima-nova-n3", "proxima-nova", Arial, sans-serif !important;
+}
+
+#head_wrap h2 {
+	font-family: "proxima-nova-n4", "proxima-nova", Arial, sans-serif !important;
+}
+
+.drop_dummy {
+	margin-top: -24px !important;
+}
+
+#header {
+	margin-top: -27px !important;
+}
+
+#footer {
+	height: 400px;
+}
+
+#solutions_footer {
+	width: 150px !important;
+}
+
+#smallprint_wrap {
+	margin-top: 310px !important;
+	clear: both !important;
+}
+
+#smallprint_social {
+	width: 350px;
+}
+
+.gradient {
+   filter: none;
+}
+
+ul.nav_topic_list_solbig {
+	margin-top: 0px !important;
+}
+
+ul.nav_topic_list {
+	margin-top: 0px !important;	
+}
+
+.nav_topic_capper {
+	color: #eeeeee;
+}
+
+/**               SOLUTIONS                **/
+.ie8_bump {
+	margin-top: 36px !important;
+}
+
+#hero_solutions {
+	margin-bottom: 45px;
+}
+
+#hero_area {
+	margin-bottom: 12px;
+}
+
+#hero_pad h2 {
+	margin-top: 35px;
+	font-style: normal !important;
+	font-family: "proxima-nova-n4", "proxima-nova-1", "proxima-nova-2" Arial, sans-serif !important;	
+	font-weight: 400 !important;
+}
