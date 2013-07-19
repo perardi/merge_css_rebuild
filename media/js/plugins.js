@@ -25,6 +25,10 @@ $('.nav_topic_list a').bind('click', false);
 // Drops down and rolls up the menus.
 $(document).ready(function() {
 		
+	var sponsorswap = function() {
+		
+		};	
+		
 	$(".nav_solutions_hover").bind('click', function() {
 		$(".fade_it_out").css("display", "inline");	
 		$("#dropdown_solutions").fadeIn("fast");

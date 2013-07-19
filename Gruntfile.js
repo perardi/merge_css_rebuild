@@ -11,8 +11,8 @@ module.exports = function(grunt) {
 	      port: 21,
 	      authKey: 'key1'
 	    },
-	    src: 'media/js',
-	    dest: '/merge.com/Merge2012/media/js',
+	    src: 'media/css',
+	    dest: '/merge.com/Merge2012/media/css',
 	    exclusions: ['media/**/.DS_Store', 'media/**/Thumbs.db', 'dist/tmp']
 	  }
 	},
