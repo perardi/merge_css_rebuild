@@ -1,0 +1,21 @@
+# Required
+# --------
+
+scheme: ftp
+host: ftp.ascedia.com
+username: mergebeta
+password: 3e7f2je
+
+# Optional
+# --------
+
+# Remote path
+path: beta.merge.com/Merge2012RebuildOfEvangelion
+
+# Remote file name in which the current revision is stored
+revision_file: .revision
+
+# These files (from Git) will not be uploaded during a deploy
+exclude:
+    - .gitignore
+    - dandelion.yml
