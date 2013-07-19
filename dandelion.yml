@@ -10,7 +10,7 @@ password: Cide.Pran$
 # --------
 
 # Remote path
-path: merge.com/Merge2013
+path: merge.com/Merge2012
 
 # Remote file name in which the current revision is stored
 revision_file: .revision
