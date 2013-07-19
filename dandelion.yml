@@ -3,14 +3,14 @@
 
 scheme: ftp
 host: ftp.ascedia.com
-username: mergebeta
-password: 3e7f2je
+username: merge
+password: Cide.Pran$
 
 # Optional
 # --------
 
 # Remote path
-path: beta.merge.com/Merge2012RebuildOfEvangelion
+path: merge.com/Merge2013
 
 # Remote file name in which the current revision is stored
 revision_file: .revision
