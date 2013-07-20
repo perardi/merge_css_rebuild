@@ -1,0 +1,108 @@
+/*========================================================================== 
+		Sub Tabs 
+==========================================================================*/
+div.sub_tabs {
+	margin-top: 15px !important;
+}
+.sub_tabs .ajax__tab_header {
+	height: 14px;
+	font-family: "proxima-nova", "Proxima Nova", Arial !important;
+	font-size: 11px;
+	font-weight: bold;
+	color: #999;
+	background: #fff;
+	-webkit-border-radius: 0;
+	border-radius: 0;	
+}
+.sub_tabs .ajax__tab_outer {
+	height: 33px;
+	padding-right: 3px;
+	margin-right: 18px;
+	background: #fff;
+	-webkit-border-radius: 0;
+	border-radius: 0;	
+}
+.sub_tabs .ajax__tab_inner {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 2px;
+	background: #fff;
+	-webkit-border-radius: 0;
+	border-radius: 0;	
+}
+.sub_tabs .ajax__tab_tab {
+	height: 10px;
+	padding: 8px;
+	margin: 0;
+	background: #fff;
+	-webkit-border-radius: 0;
+	border-radius: 0;	
+}
+.sub_tabs .ajax__tab_hover .ajax__tab_outer {	
+	cursor: pointer;
+	color: $main-orange;
+	background: #fff;
+	-webkit-border-radius: 0;
+	border-radius: 0;		
+}
+.sub_tabs .ajax__tab_hover .ajax__tab_inner {
+	cursor: pointer;
+	background: #eee;
+	color: #fff;	
+	-webkit-border-radius: 0;
+	border-radius: 0;	
+}
+.sub_tabs .ajax__tab_hover .ajax__tab_tab {
+	cursor: pointer;
+	background: #eee;
+	color: #999;	
+	-webkit-border-radius: 0;
+	border-radius: 0;	
+}
+
+.sub_tabs .ajax__tab_active .ajax__tab_outer {
+	background: #fff;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+.sub_tabs .ajax__tab_active .ajax__tab_inner {
+	background: #fff;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+.sub_tabs .ajax__tab_active .ajax__tab_tab {
+	background: #eee;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	color: #666666;
+}
+.sub_tabs .ajax__tab_disabled {
+	color: #A0A0A0;
+}
+.sub_tabs .ajax__tab_body {
+	font-family: "proxima-nova-1", "Proxima Nova", "Lucida Grande", Calibri, Arial, sans-serif;
+	border: none;
+	padding: 0;
+	margin-top: 29px;
+	background-color: #ffffff;
+	border: none;
+}
+
+p.solutions_larger {
+	font-size: 13pt !important;
+}
+
+.table_adjust strong {
+	margin-top: 5px;
+	margin-bottom: 1px;
+	line-height: 21pt;
+}
+
+.video_desc {
+	font-size: 90%;
+	line-height: 16pt;
+}
+
+.ajax__tab_panel .related_box_wrapper {
+	margin-right: 17px !important;
+}

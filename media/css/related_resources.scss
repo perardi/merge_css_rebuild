@@ -1,0 +1,57 @@
+#related_resources {
+	clear: both;
+	width: 100%;
+	padding-top: 2px;
+	border-top: 1px solid #cccccc;
+	margin-top: 0px;
+	padding-bottom: 60px;
+}
+
+#related_resources h3 {
+	font-size: 17pt;
+	color: #555555;
+	font-weight: normal;
+	line-height: 0;	
+}
+
+
+#industry_articles {
+	float: left;
+}
+
+#industry_articles_content {
+	clear: both;
+	line-height: 1.25;
+	font-size: 10pt;
+}
+
+#industry_articles_content p {
+	float: left;
+	margin-right: 20px;
+	padding-left: 0px;
+	border-left: 1px solid #f8f8f8;
+}
+
+#industry_websites {
+	float: left;
+	margin-left: 25px;
+}
+
+#industry_website_content {
+	clear: both;
+	line-height: 1.25;
+	font-size: 10pt;	
+}
+
+#industry_website_content p {
+	float: left;
+	margin-right: 20px;
+}
+
+.industry_label {
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 1px;
+	line-height: 1;
+	font-size:15px;
+}

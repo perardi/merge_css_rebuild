@@ -1,0 +1,36 @@
+/*-- Generic Columns --*/
+#col1 {
+	width: 675px;
+	float: left;
+	margin-bottom: 120px;
+	font-size: 10pt;
+}
+
+#col2 {
+   	width: 175px;
+   	clear: none;
+   	float: right;
+   	margin-top: 50px;
+   	font-size: 10pt;
+}
+
+#standalone_full_wrap {
+                width:890px;
+                margin-top:25px;
+}
+ 
+#standalone_full_wrap h1 {
+                font-size: 36px;
+}
+ 
+#standalone_full_wrap h2 {
+                font-size: 14pt;
+                line-height: 1.4;
+                color: #666666;
+                font-weight: normal;
+                margin-top: 1px;
+}
+ 
+.full #col1 {
+                width:890px;
+}

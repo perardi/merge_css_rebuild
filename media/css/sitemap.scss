@@ -1,0 +1,17 @@
+/*--------------------------------------------------------------------------------------*/ 
+/*	Sitemap			*/ 
+/*--------------------------------------------------------------------------------------*/
+
+ul.CMSSiteMapList {
+	list-style-type: none !important;
+}
+
+.CMSSiteMapListItem {
+	border-top: 1px solid #999;
+	font-weight: bold;
+}
+
+.CMSSiteMapListItem ul li {
+	border-top: 1px solid #fff;
+	font-weight: normal;
+}

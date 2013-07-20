@@ -1,0 +1,91 @@
+#breadcrumb {
+	background:#ff9900;
+	width: 100%;
+	height: 35px;
+	background: #e1e1e1;
+	background: 			url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2MxYzFjMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjExJSIgc3RvcC1jb2xvcj0iI2VlZWVlZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjY2NjY2MiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #c1c1c1 0%, #eeeeee 11%, #cccccc 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c1c1c1), color-stop(11%,#eeeeee), color-stop(100%,#cccccc)); 
+	background: -webkit-linear-gradient(top, #c1c1c1 0%,#eeeeee 11%,#cccccc 100%); 
+	background: -ms-linear-gradient(top, #c1c1c1 0%,#eeeeee 11%,#cccccc 100%);
+	background: linear-gradient(to bottom, #c1c1c1 0%,#eeeeee 11%,#cccccc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#c1c1c1',GradientType=0 );	
+	padding: 1px;
+	font-size: 9pt;
+}
+
+#breadcrumb input[type=text] {
+	border: 1px solid #ccc; 
+    padding: 3px;
+    background: #fff;
+	margin-top: 3px;
+	font-size: 9pt;
+	color: #666;
+}
+
+#breadwrap {
+	width: 970px;
+	margin: 0 auto;
+	padding-top: 4px;
+}
+
+#breadcrumb a {
+	color: #0099cc;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#bread_list {
+	width: 400px;
+	float: left;
+	clear: none;
+	margin: 4px 0 0 40px;
+}
+
+#upper_searcher {
+	float: right;
+	clear: none;
+	width: 400px;
+	text-align: right;
+	margin-right: 42px;
+}
+
+#breadcrumb a:hover {
+	color: #1e7ea2;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#breadcrumb  ul {
+	display: inline;
+	list-style: none;
+}
+
+#breadcrumb  ul li {
+	display: inline;
+	list-style: none;
+}
+
+#breadcrumb  ul li:before {
+	content: "\0020 \0020 \0020 \00BB \0020";
+}
+
+#breadcrumb  ul li.first:before {
+	content: " ";
+}
+
+/*-- Search --*/
+.merge_search_field {
+	height: 14px;
+	border: 1px solid #CCC !important;
+	width: 200px;
+	margin-top: -15px !important;
+	position: relative;
+	top: -7px;
+	margin-right: 0;
+}
+
+.merge_search_button {
+	margin-top: 3px;
+	margin-left: -4px;
+}

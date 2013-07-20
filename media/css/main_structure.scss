@@ -1,0 +1,64 @@
+/** Main Body **/
+
+#hero_pad {
+	width: 100%;
+	padding: 0;
+}
+
+h1 {
+	font-size: 42pt;
+	color: $main-orange;
+	font-weight: 100;
+	margin: 20px 0 0 0;
+	line-height: 1;
+	font-style: normal;	
+	letter-spacing: -2px;
+}
+
+.head_puller {
+	margin-top: -100px !important;
+}
+
+h2 {
+	font-size: 14pt;
+	color: #666666;
+	font-weight: normal;
+}
+
+#bizform {
+	font-size: 11pt;
+	line-height: 2;
+	color: #666666;
+}
+
+#bizform .EditingFormControlNestedControl {
+	margin-bottom:10px;
+	color:#666666;
+}
+
+#interior_wrap {
+	width: 890px;
+	clear: both;
+	margin: 0 auto;
+}
+
+#interior_left {
+	width: 420px;
+	float: left;
+}
+
+#interior_right {
+	width: 420px;
+	float: right;
+}
+
+.accordian-header {
+	font-weight:bold;
+	margin-bottom:15px;
+	font-size:12pt;
+	display:list-item;
+	list-style-image:url("/Merge2012/media/company/plus.png");
+	list-style-position:inside;
+	cursor:pointer;
+	padding-top:20px;
+}

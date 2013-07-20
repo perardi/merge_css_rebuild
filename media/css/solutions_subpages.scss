@@ -1,0 +1,127 @@
+/*========================================================================== 
+Solutions Subpages
+========================================================================== */
+h3 {
+	font-size: 18pt;
+	color: $main-orange;
+	font-weight: normal;
+	line-height: 0;	
+}
+
+.overview_copy {
+	font-size: 125%;
+}
+
+#hero_solutions ul {
+	display: inline;
+	padding: 0;
+	margin: 10px 0 0 0;
+	padding-top: 25px;
+}
+
+#hero_solutions ul img {
+	margin-right: 4px;
+	margin-top: -3px;
+}
+
+#hero_solutions ul li {
+	display: inline;
+}
+
+#hero_solutions ul li a {
+	color: $main-orange;
+	font-size: 11pt;
+	text-decoration: none;
+	margin-right: 13px;
+	text-shadow: 2px 2px 10px #ccc;
+	filter: dropshadow(color=#ccc, offx=2, offy=2);
+}
+
+#hero_solutions_full ul {
+	display: inline;
+	padding: 0;
+	margin: 0;
+	padding-top: 25px;
+}
+
+#hero_solutions_full ul img {
+	margin-right: 8px;
+	margin-top: -3px;
+}
+
+#hero_solutions_full ul li {
+	display: inline;
+}
+
+#hero_solutions_full ul li a {
+	color: $main-orange;
+	font-size: 11pt;
+	text-decoration: none;
+	margin-right: 15px;
+	text-shadow: 2px 2px 10px #ccc;
+	filter: dropshadow(color=#ccc, offx=2, offy=2);
+}
+
+#hero_pad {
+	width: 890px;
+	padding: 20px 0 0 0;
+	margin: 0 auto;
+}
+
+#hero_pad_center {
+	width: 890px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+#solutions_left {
+	width: 625px;
+	float: left;
+	margin-bottom: 40px;
+	margin-top: 0;
+	font-size: 11pt;
+}
+
+#solutions_left p {
+	font-size: 11pt;
+}
+
+#solutions_left h5 {
+	color: $main-orange;
+	margin: 0;
+	font-size: 14pt;
+	margin-bottom: 0px;
+	line-height: 1;
+}
+
+#solution_hero_image {
+	float: right;
+	clear: none;
+	margin-right: -68px;
+	margin-left: 0px;
+	margin-top: -20px;
+	margin-bottom: 20px;
+	position: relative;
+	z-index: 1;
+}
+
+#solutions_download_area {
+	width: 100%;
+	margin-top: 20px;
+}
+
+#solutions_download_area img {
+	float: left;
+	margin-top: 2px;
+	margin-right: 10px;
+}
+
+#theres_more {
+	float: left;
+	width: 30%;
+}
+
+#watch_learn {
+	float: right;
+	width: 65%;
+}
