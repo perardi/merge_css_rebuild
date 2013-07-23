@@ -94,3 +94,6 @@ ul.nav_topic_list {
 	font-weight: 400 !important;
 }
 
+#bigicon {
+	display: none !important;
+}
