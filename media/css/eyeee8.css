@@ -93,3 +93,7 @@ ul.nav_topic_list {
 	font-family: "proxima-nova-n4", "proxima-nova-1", "proxima-nova-2" Arial, sans-serif !important;	
 	font-weight: 400 !important;
 }
+
+#bigicon {
+	display: none !important;
+}
