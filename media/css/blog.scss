@@ -268,6 +268,14 @@
 	position: relative;
 }
 
+#bigicon:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
 #p_lt_mainContentSlug_pagePlaceholder_pagePlaceholder_lt_standaloneSidebar_ContentSubscription_subscriptionElem_btnSubscribe {
 	-moz-box-shadow:inset 0px 1px 0px 0px #4191db;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #4191db;
