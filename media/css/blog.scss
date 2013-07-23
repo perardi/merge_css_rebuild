@@ -10,7 +10,8 @@
 	font-size:30px;
 	color: #0099cc;
 	border-bottom: solid 1px #0099cc;
-	line-height: 1.4;
+	line-height: 1.25;
+	margin-bottom: 10px;
 }
 
 .BlogPTitleDetail {
@@ -210,7 +211,7 @@
 #toplinks {
 	text-align:right;
 	margin-left:36px;
-	color:#ffffff;
+	color:#dddddd;
 }
 
 #p_lt_contentBody_CommentView_commentView_ctrlCommentEdit_chkSubscribe {
@@ -289,6 +290,13 @@
 }
 
 input#p_lt_mainContentSlug_pagePlaceholder_pagePlaceholder_lt_standaloneSidebar_SearchBox_txtWord {
-	width: 85% !important;
+	width: 80% !important;
 }
-	
+
+input#p_lt_mainContentSlug_pagePlaceholder_pagePlaceholder_lt_standaloneSidebar_SearchBox_btnImageButton {
+	margin-bottom: -6px;
+}
+
+input#p_lt_mainContentSlug_pagePlaceholder_pagePlaceholder_lt_standaloneSidebar_ContentSubscription_subscriptionElem_notifCMS_EmailGateway_txtEmail {
+	width: 95% !important;
+}
