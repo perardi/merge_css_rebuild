@@ -37,9 +37,10 @@ h4,
 	margin-top: -24px !important;
 }
 
-#header {
+#header, #blogheader {
 	margin-top: -27px !important;
 }
+
 
 #footer {
 	height: 400px;

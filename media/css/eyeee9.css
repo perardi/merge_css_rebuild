@@ -2,7 +2,7 @@
        filter: none;
     }
 
-#header {
+#header, #blogheader {
 	margin-top: -27px !important;
 }
 
@@ -29,4 +29,8 @@ ul.nav_topic_list {
 
 .nav_topic_capper {
 	color: #eeeeee;
+}
+
+#bigicon {
+	display: none !important;
 }
