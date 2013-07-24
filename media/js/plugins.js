@@ -384,6 +384,10 @@ $(document).ready(function() {
 		$(".menu_company").css("background", "none")		
 	});
 
+	$(".company_blog").mouseover(function() {
+		$(".menu_company").load("http://www.merge.com/Merge2012/media/tab_content/merge_content_add.html #comp_blog");
+	});
+
 	$(".company_markets").mouseover(function() {
 		$(".menu_company").load("http://www.merge.com/Merge2012/media/tab_content/merge_content.html #company_markets");
 	});
