@@ -322,3 +322,13 @@ input#p_lt_mainContentSlug_pagePlaceholder_pagePlaceholder_lt_standaloneSidebar_
 ul.blog_list {
 	margin: 12px 0 0px 0 !important;
 } 
+
+.svg_lower_logo {
+	float: left !important;
+	margin-right: 10px !important;
+	margin-top: 10px !important;
+}
+
+@import "icons.data.png";
+@import "icons.data.svg";
+@import "icons.fallback";
