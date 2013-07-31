@@ -13,15 +13,6 @@
 	line-height: 1.25;
 	margin-bottom: 10px;
 	padding-bottom: 6px;
-	-ms-word-break: break-all;
-	word-break: break-all;
-    word-break: break-word;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
-    -webkit-hyphenate-before: 2;
-    -webkit-hyphenate-after: 3;
-    hyphenate-lines: 3;
 }
 
 .BlogPTitleDetail {
@@ -330,6 +321,6 @@ input#p_lt_mainContentSlug_pagePlaceholder_pagePlaceholder_lt_standaloneSidebar_
 	margin-top:10px;
 }
 
-ul.blog_list {
+ul.blog_list{margin:12px 0 0px 0 !important}
 
-/**@import "blog_mobile";**/
+/** @import "blog_mobile"; **/
