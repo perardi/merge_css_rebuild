@@ -114,14 +114,10 @@
 
 #smallprint_social {
 	float: right;
-	width: 300px;
+	width: 330px;
 	text-align: right;
-}
-
-#smallprint_social img {
-	float: right;
-	clear: none;
-	margin-left: 7px;
+	font-size: 9pt;
+	margin-top: 16px !important;
 }
 
 #FooterMenuElem {
@@ -134,4 +130,66 @@
 
 ul.blog_footie {
 	margin-bottom: 0 !important;
+}
+
+.svg_lower_logo {
+	float: left !important;
+	margin-right: 10px !important;
+	margin-top: 10px !important;
+	width: 92px; 
+	height: 14px;
+}
+
+@import "icons.data.png";
+@import "icons.data.svg";
+@import "icons.fallback";
+@import "merge_fonts";
+
+.vector_footer_social {
+	width: 22px;
+	float: right;
+	font-size: 11pt;
+	clear: none !important;
+	margin-top: 1px;
+}
+
+#smallprint_social, #smallprint_logo {
+	margin-top: 6px;
+}
+
+.fb_icon {
+	color: #2860a0;
+}
+
+.twitter_icon {
+	color: #00adf2;
+}
+
+.linkedin_icon {
+	color: #0074b7;
+}
+
+.youtube_icon {
+	color: #e1371e;
+}
+
+.merge_icon {
+	color: #ff9900;
+}
+
+.merge_blog_logo {
+	 width: 150px; 
+	height: 23px;
+}
+
+#social_buttons_footer {
+	width: 115px;
+	clear: none !important;
+	float: right;
+}
+
+.footer_text_links {
+	float: left;
+	text-align: right;
+	margin-top: 1px;
 }
